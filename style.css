@@ -1,0 +1,29 @@
+body{
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+canvas{
+    animation-name: COLORS;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+
+}
+h3{
+    width: 75;
+    height: 15;
+}
+
+.btn-default:hover{
+    background-color:grey;
+}
+
+@keyframes COLORS {
+    0%{box-shadow: 1px 1px 35px red;}
+    25%{box-shadow: 1px 1px 35px blue;}
+    50%{box-shadow: 1px 1px 35px green;}
+    75%{box-shadow: 1px 1px 35px purple;}
+    100%{box-shadow: 1px 1px 35px yellow;}
+}
